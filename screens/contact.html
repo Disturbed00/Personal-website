@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav collapsible">
+        <a href="../index.html"
+          ><img class="logo" src="../images/logo.png" alt="logo"
+        /></a>
+        <img
+          src="../images/menu.png"
+          alt="menu icon"
+          class="menu-icon nav-toggler"
+        />
+        <ul class="list nav-list collapsible-content">
+          <li class="nav-item"><a href="about_me.html">About</a></li>
+          <li class="nav-item"><a href="skills.html">Skills</a></li>
+          <li class="nav-item">
+            <a href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div class="contact-container">
+        <form
+          action="https://formspree.io/f/xgvwvalg"
+          class="contact-left"
+          method="post"
+        >
+          <div class="contact-title">
+            <h2>Contact Me!</h2>
+            <hr />
+            <p>
+              I am interested in taking an internship as a front-end web
+              developer.<br />
+              However, if you have any questions then feel free to ask!
+            </p>
+          </div>
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            class="contact-input"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            class="contact-input"
+            required
+          />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            class="contact-input"
+            required
+          ></textarea>
+          <button type="submit">Submit</button>
+        </form>
+        <div class="contact-right">
+          <div class="info-container">
+            <p>Tareq Alshawwa.</p>
+            <p>86199 Augsburg</p>
+            <p><span style="color: aqua">@</span>:tareqalshawwa2@gmail.com</p>
+          </div>
+          <img src="../images/map3.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <script src="../scripts/script.js"></script>
+  </body>
+</html>
