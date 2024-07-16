@@ -221,6 +221,7 @@ button.styled-button:hover {
   height: 100vh;
   display: flex;
   justify-content: space-evenly;
+  margin: auto 1.7rem;
 }
 
 .contact-left {
