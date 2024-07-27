@@ -144,8 +144,8 @@ a {
 }
 
 .content h1 {
-  font-size: 6rem;
-  margin-top: 10rem;
+  font-size: 7rem;
+  margin-top: 13rem;
 }
 
 .content p {
@@ -194,6 +194,7 @@ button.styled-button {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  font-size: 1.5rem;
 }
 
 button.styled-button span {
@@ -215,6 +216,13 @@ button.styled-button:hover span {
 button.styled-button:hover {
   border: none;
   color: white;
+}
+
+@media screen and (max-width: 424px) {
+  .content h1 {
+    font-size: 6rem;
+    margin-top: 6rem;
+  }
 }
 
 .contact-container {
@@ -359,12 +367,12 @@ button.styled-button:hover {
 
 .project-card h3 {
   margin-top: 1rem;
-  font-size: 2rem;
-  margin-bottom: 1.2rem;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
 }
 
 .project-card p {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   color: #333;
   margin-bottom: 1.2rem;
   font-weight: 500;
